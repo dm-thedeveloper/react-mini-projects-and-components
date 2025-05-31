@@ -1,0 +1,163 @@
+.nav--body{
+min-height: 100vh;
+height: auto;
+width: 100%;
+background-color: wheat;
+}
+.nav--body .navbar{
+
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    background-color: blue;
+    color: ivory;
+display: flex;
+z-index:1;
+transition: all .5s;
+}
+
+
+.Show{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    background-color: blue;
+    color: ivory;
+display: flex;
+z-index:1;
+transition: all .2s;
+    /* visibility: hidden; */
+    top: 50px;
+    /* display: none; */
+    /* animation: scaleX .3s; */
+}
+
+.hide{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    background-color: blue;
+    color: ivory;
+display: flex;
+z-index:1;
+transition: all 1s;
+    top: -100%;
+}
+.nav--body nav .logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav--body nav .links{
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav--body nav .links ul{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(138, 117, 117); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.registr{
+    /* background-color: #fff; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registr button{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 5px;
+    height: 50px;
+    width: 130px;
+
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.registr button:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    border: 2px solid white;
+}
+
+
+.images-scroll{
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+    ;
+
+}
+.images-scroll .img--card{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.num{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.32);
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}

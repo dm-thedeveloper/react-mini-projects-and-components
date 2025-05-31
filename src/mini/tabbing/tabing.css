@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabing-boody{
+    height: 100vh;
+    width: 100%;
+    min-width: 250px;
+    background-color: wheat;
+    background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.heaidng{
+    text-align: center;
+color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.tabs{
+    height: 10%;
+    width: 100%;
+    /* background-color: wheat; */
+    margin-top: 10px;   
+    /* display: ; */
+}
+.tabing{
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    margin: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.active-tab{
+    height: 100%;
+    /* width: 10%; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color:rgba(255, 255, 0, 0.05);
+    border-right: 5px ridge white;
+    border-left: 5px ridge white;
+    font-weight: 900;
+    /* backdrop-filter: blur(30px); */
+    cursor: pointer;
+    color: white;
+    background-color: yellow;
+    color: black;
+    /* border: none; */
+}
+.tabing div:last-child{
+    /* background-color: yellow; */
+    /* color: black; */
+    border: none;
+}
+.tabing .tab{
+    height: 100%;
+    /* width: 10%; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    background-color:rgba(255, 255, 0, 0.05);
+    border-right: 1px solid white;
+    font-weight: 900;
+    /* backdrop-filter: blur(30px); */
+    cursor: pointer;
+    color: white;
+
+}
+
+.tabing .tab:hover{
+
+    background-color: rgba(255, 255, 0, 0.362);
+}
+
+.tabcontent{
+    height: 75%;
+    width: 95%;
+    margin: auto;
+    background-color:rgba(255, 255, 0, 0.267);
+    /* padding-top: 2px; */
+}
+
+.content{
+    height: 90%;
+    width: 100%;
+    /* background-color: #fff; */
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+}
+
+.tecnology{
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.gallry-body{
+ height: 100vh; 
+ width: 100%;
+ background-color:white;
+}
+
+
+.galley-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+.gallery-card{
+    /* background-color: rgb(132, 60, 60); */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding:0px;
+    min-height: 200px;
+    max-height: 100%;
+    /* height: auto; */
+border-radius: 10px;
+    
+}
+
+.gallery-card img{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+transition: all .3s;
+}
+
+
+.gallery-card img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}

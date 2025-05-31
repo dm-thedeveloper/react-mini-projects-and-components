@@ -1,0 +1,42 @@
+.auto-carousel{
+    height: 580px;
+    width: 100%;
+    background-color: rosybrown;
+    /* margin-top: 500px; */
+}
+
+
+.carousel-nineghty-per{
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+.carousel-images{
+
+    height: 480px;
+    width:1200px;
+    /* background-color: #fff; */
+    padding: 5px;
+    text-align: center;
+}
+
+.carousel-img{
+    height: 100%;
+    width: 100%;
+}
+
+.paly--pause{
+    height: 50px;
+    width: 100%;
+    /* background-color: #a35b5b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    ;
+}
+.paly--pause button{
+    cursor: pointer;
+}

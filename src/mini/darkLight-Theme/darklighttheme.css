@@ -1,0 +1,21 @@
+:root{
+    --background:white;
+    --text:black;
+    --font-size:30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dark-light-theme-body{    
+height: 100vh;
+width:100%;
+/* background-color:var(--background); */
+/* color: var(--text); */
+/* font-size: var(--font-size); */
+
+transition: all .2s;
+
+}

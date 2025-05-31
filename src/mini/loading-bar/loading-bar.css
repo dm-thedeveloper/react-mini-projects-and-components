@@ -1,0 +1,72 @@
+.loading-bar_boody{
+    height: 100vh;
+    width: 100%;
+    background-color: #FF6347;
+    /* color: #366744; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading-bar_boody input{
+    height: 30px;
+    width: 50%;
+    background-color:#366744;
+    border: 2px solid white;
+    outline: none;
+    padding: 2px 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.loading-bar_boody input::placeholder{
+color: rgba(255, 255, 255, 0.863);
+}
+
+.card{
+    height: 300px;
+    width: 400px;
+    background-color:#366744;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 20px;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.card img{
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+}
+.card center{
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+
+
+.loading-bar{
+    height: 15px;
+    width: 0px;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    border-radius: 20px;
+    border-top-left-radius: 0px;    
+    border-bottom-left-radius: 0px;   
+}
+.loading-bar-start{
+    height: 15px;
+    border-radius: 20px;
+    width: 100vw;
+    background-color: green;
+    position: fixed;
+    transition: all 10s;
+    top: 0;
+border-top-left-radius: 0px;    
+border-bottom-left-radius: 0px;    
+
+}

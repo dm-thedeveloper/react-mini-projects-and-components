@@ -1,0 +1,75 @@
+.popup--body{
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+    background-image: url("https://images.unsplash.com/photo-1721332149267-ef9b10eaacd9?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.popup--body button{
+    font-size: 1.7em;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.popup_body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.261);
+    /* backdrop-filter: blur(2px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: absolute;
+transition: all 1s linear 2s;
+
+}
+
+.popup{
+
+height: 70%;
+width: 50%;
+    /* backdrop-filter: blur(2px); */
+    border:1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    background-color: black;
+    /* top: -100%; */
+    /* transition: all 1s linear 2s; */
+    animation-name: showpopup;
+    animation-duration: 1s;
+}
+
+.b{
+    border: 1px solid white;
+}
+@keyframes showpopup {
+
+    from {
+        top: -300px;
+        opacity: 0;
+        background-color: red;
+    }
+    to{
+        top: 10%;
+opacity: 1;
+background-color: black;
+
+    }
+
+}
+

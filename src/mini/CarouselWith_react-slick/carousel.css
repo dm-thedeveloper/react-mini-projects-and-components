@@ -1,0 +1,176 @@
+
+.carouel--body{
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: rgb(136, 144, 199); */
+  color: white;
+}
+
+.seaction{
+  height: 70vh;
+  width: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 10px auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+  background-color: rgb(136, 144, 199);
+
+}
+
+.simple-caousel{
+
+height: 95%;
+width: 80%;
+/* background-color: #fff; */
+margin: auto;
+}
+
+
+.card1{
+  height: 300px;
+  width: 300px;
+  /* background: #000; */
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(3px); */
+  padding: 5px;
+  margin: auto 10px;
+}
+
+.card1 img{
+  height: 80%;
+  width: 100%;
+  z-index: 2;
+  /* border: 1px solid white; */
+    box-shadow: 0px 0px 5px white;
+}
+
+.card1 p{
+  text-align: center;
+  margin-top: 20px;
+
+}
+.card1 mark{
+  background-color: white;
+  color:black;
+  /* text-shadow: 0px 0px 1px blue; */
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  /* max-width: 100%; */
+}
+
+
+
+
+/* ----------------loading------------------- */
+
+.card1_loading{
+  height: 300px;
+  width: 300px; 
+  background:white;
+  position: relative;
+}
+
+
+.movie--isloading {
+  height: 300px;
+  width: 300px;
+
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  /* background-color: red; */
+  /* padding: 2px; */
+
+}
+
+
+.movie--isloading .loading-image {
+
+
+  height: 190px;
+  background-image: -webkit-linear-gradient(left, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+  background-image: -o-linear-gradient(left, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+  background-image: linear-gradient(90deg, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+  background-size: 250px;
+  -webkit-animation: shine-loading-image 2s infinite ease-out;
+          animation: shine-loading-image 2s infinite ease-out;
+}
+
+.movie--isloading .loading-content {
+  background: #f7f7f7;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.movie--isloading .loading-content .loading-main-text {
+
+  height: 30px;
+  width: 50%;
+  margin-bottom: 10px;
+  background: #ececec;
+  background-image: -webkit-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+  background-image: -o-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+  background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+  background-size: 250px;
+  /* border-radius: 10px; */
+  -webkit-animation: shine-loading-container-items 2s infinite ease-out;
+          animation: shine-loading-container-items 2s infinite ease-out;
+}
+
+
+
+
+
+@-webkit-keyframes shine-loading-image {
+  0% {
+    background-position: -32px;
+  }
+  40%, 100% {
+    background-position: 208px;
+  }
+}
+
+
+@keyframes shine-loading-image {
+  0% {
+    background-position: -32px;
+  }
+  40%, 100% {
+    background-position: 208px;
+  }
+}
+
+@-webkit-keyframes shine-loading-container-items {
+  0% {
+    background-position: -100px;
+  }
+  40%, 100% {
+    background-position: 140px;
+  }
+}
+
+@keyframes shine-loading-container-items {
+  0% {
+    background-position: -100px;
+  }
+  40%, 100% {
+    background-position: 140px;
+  }
+}
